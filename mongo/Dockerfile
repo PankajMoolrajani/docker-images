@@ -1,0 +1,7 @@
+FROM mongo
+EXPOSE 27017
+
+ADD ./mxr /mxr
+
+ENV ADMIN_USER=admin
+ENV ADMIN_PASS=admin
